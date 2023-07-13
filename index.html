@@ -5,8 +5,8 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-  <h1>Lottery Game</h1>
-  <div id="game-container">
+  <h1 class="animate-fade-in animate-heading">Lottery Game</h1>
+  <div id="game-container" class="animate-fade-in">
     <div id="picked-numbers">
       <h2>Your Numbers</h2>
       <input type="number" id="num1" min="1" max="59">
@@ -17,17 +17,17 @@
       <input type="number" id="num6" min="1" max="59">
     </div>
     <div id="buttons">
-      <button id="lucky-dip-btn">Lucky Dip</button>
-      <button id="start-game-btn">Start Game</button>
-      <button id="reset-btn">Reset</button>
+      <button id="lucky-dip-btn" class="animate-bounce">Lucky Dip</button>
+      <button id="start-game-btn" class="animate-pulse">Start Game</button>
+      <button id="reset-btn" class="animate-bounce">Reset</button>
     </div>
     <div id="drawn-numbers">
-      <h2>Drawn Numbers</h2>
-      <p id="drawn-output"></p>
+      <h2 class="animate-fade-in">Drawn Numbers</h2>
+      <p id="drawn-output" class="animate-fade-in"></p>
     </div>
     <div id="results">
-      <h2>Results</h2>
-      <p id="prize-output"></p>
+      <h2 class="animate-fade-in">Results</h2>
+      <p id="prize-output" class="animate-fade-in"></p>
     </div>
   </div>
   
