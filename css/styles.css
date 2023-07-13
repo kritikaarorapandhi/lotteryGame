@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #204021;
+}
+
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#picked-numbers {
+    margin-bottom: 20px;
+}
+
+.number-input {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.number-input input {
+    margin-right: 10px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.number-input img {
+    width: 30px;
+    height: 30px;
+}
+
+#buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DAA520;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+#buttons button:hover {
+    background-color: #FF8C00;
+}
+
+#drawn-numbers {
+    margin-bottom: 20px;
+    color: #DAA520;
+}
+
+#drawn-output {
+    font-weight: bold;
+    color: #204021;
+}
+
