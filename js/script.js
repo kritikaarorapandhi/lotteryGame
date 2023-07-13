@@ -10,7 +10,7 @@ const drawnOutput = document.getElementById('drawn-output');
 const prizeOutput = document.getElementById('prize-output');
 
 // Event listeners for buttons
-luckyDipButton.addEventListener('click', function() {
+luckyDipButton.addEventListener('click', function () {
   // Clear previously picked numbers
   pickedNumbers.length = 0;
 
@@ -26,7 +26,7 @@ luckyDipButton.addEventListener('click', function() {
   displayPickedNumbers();
 });
 
-startGameButton.addEventListener('click', function() {
+startGameButton.addEventListener('click', function () {
   // Clear previously drawn numbers
   drawnNumbers.length = 0;
 
@@ -45,7 +45,7 @@ startGameButton.addEventListener('click', function() {
   calculatePrize();
 });
 
-resetButton.addEventListener('click', function() {
+resetButton.addEventListener('click', function () {
   // Clear picked and drawn numbers arrays, and reset the output fields
   pickedNumbers.length = 0;
   drawnNumbers.length = 0;
@@ -56,7 +56,7 @@ resetButton.addEventListener('click', function() {
 // Event listener for manual number selection
 const numberInputs = Array.from(document.getElementById('picked-numbers').querySelectorAll('input'));
 numberInputs.forEach(input => {
-  input.addEventListener('input', function() {
+  input.addEventListener('input', function () {
     // Clear the picked numbers array
     pickedNumbers.length = 0;
 
